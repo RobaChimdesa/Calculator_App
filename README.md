@@ -27,8 +27,6 @@ We welcome contributions from the community to enhance and improve the calculato
 - Make your changes and test them thoroughly
 - Submit a pull request with a detailed description of your changes
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](/LICENSE) file for more details.
 
 ## Contact
 For any questions or feedback, you can contact us at [https://github.com/RobaChimdesa](https://github.com/NugusaWakwaya).
