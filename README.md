@@ -6,7 +6,6 @@ This project is a calculator website that allows users to perform various calcul
 ## Features
 - Basic arithmetic operations (addition, subtraction, multiplication, division)
 - Clear button to reset the calculator
-- History of previous calculations
 - Responsive design for mobile and desktop
 
 ## Technologies Used
