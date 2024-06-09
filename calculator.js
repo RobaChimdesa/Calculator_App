@@ -1,23 +1,23 @@
-let input = document.getElementById('inputbox');
-let buttons = document.querySelectorAll('button');
+let inputbtn = document.getElementById('inputbox');
+let buttoninput = document.querySelectorAll('button');
 
 let string = "";
-let arr = Array.from(buttons);
+let arr = Array.from(buttoninput);
 arr.forEach(button => {
   button.addEventListener('click', (e) => {
     if (e.target.innerHTML == '=') {
       try {
         let result = new Function('return ' + string)();
-        input.value = result;
+        inputbtn.value = result;
       } catch (error) {
-        input.value = "Error";
+        inputbtn.value = "Error";
       }
     } else if (e.target.innerHTML == 'C') {
       string = "";
-      input.value = string;
+      inputbtn.value = string;
     } else {
       string += e.target.innerHTML;
-      input.value = string;
+      inputbtn.value = string;
     }
   });
 });
